@@ -3,4 +3,5 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
 [![Actions Status](https://github.com/maksimfad/python-project-lvl1/workflows/Python%20CI/badge.svg)](https://github.com/maksimfad/python-project-lvl1/actions)
+[![asciicast](https://asciinema.org/a/WDM587IVFAtqxu4gBX6yaSN64.svg)](https://asciinema.org/a/WDM587IVFAtqxu4gBX6yaSN64)
 
