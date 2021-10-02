@@ -1,12 +1,13 @@
 """This is module where even game logic defined."""
 
-from random import randint
+from random import randint  # isort:skip
 
 
-description_of_game = 'Answer "yes" if the number is even, otherwise answer "no".' 
+description_of_game = 'Answer "yes" if the number is even, otherwise answer "no".'
+
 
 def game_question_and_answer():
-    "Function to generate question and right answer and return them."
+    """Use this function to generate question and right answer and returns them."""
     question_number = randint(1, 100)
     if question_number % 2 == 0:
         answer = 'yes'
