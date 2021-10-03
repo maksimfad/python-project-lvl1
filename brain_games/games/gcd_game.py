@@ -19,8 +19,9 @@ def game_question_and_answer():
     test_divisor = 1
     max_divisor = 1
     while test_divisor <= min_number:
-        if (first_number % test_divisor == 0) & (second_number 
-        % test_divisor == 0):
+        first_condition = first_number % test_divisor == 0
+        second_condition = second_number % test_divisor == 0
+        if first_condition & second_condition:
             max_divisor = test_divisor
         test_divisor += 1
     right_answer = str(max_divisor)
