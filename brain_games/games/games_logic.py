@@ -23,8 +23,8 @@ def game_logic(description_of_game, game_question_and_answer):
             print('Correct!')
             score += 1
         else:
-            print("'{0}' is wrong answer\
-                 ;(. Correct answer was '{1}'.".format(answer_of_user, right_answer))
+            print("'{0}' is wrong answer ;(. Correct answer\
+                 was '{1}'.".format(answer_of_user, right_answer))
             print("Let's try again, {0}!".format(name_of_user))
             break
     if score == 3:
