@@ -3,11 +3,13 @@
 from random import randint  # isort:skip
 
 
-description_of_game = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+description_of_game = 'Answer "yes" if given number is prime.\
+     Otherwise answer "no".'
 
 
 def game_question_and_answer():
-    """Use this function to generate question and right answer and return them."""
+    """Use this function to generate question and right answer\
+         and return them."""
     question_number = randint(2, 100)
     question = str(question_number)
     divisor = 2
