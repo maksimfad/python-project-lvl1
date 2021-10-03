@@ -23,5 +23,5 @@ def game_question_and_answer():
     progression[position_of_missing_number] = '..'
     question = ''
     for number in progression:
-        question = question + ' {0}'.format(number)
+        question = question + '{0} '.format(number)
     return question, right_answer
