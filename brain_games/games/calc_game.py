@@ -7,7 +7,7 @@ description_of_game = 'What is the result of the expression?'
 
 
 def game_question_and_answer():
-    """Use this function to generate question and right answer and returns them."""
+    """Use this function to generate question and right answer."""
     first_number = randint(1, 100)
     second_number = randint(1, 100)
     random_for_operation_choose = randint(1, 3)
