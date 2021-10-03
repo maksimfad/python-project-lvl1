@@ -9,7 +9,7 @@ description_of_game = 'What number is missing in the progression?'
 def game_question_and_answer():
     """Use this function to generate question and right answer and returns them."""
     lenght_of_progression = randint(5, 10)
-    #print(lenght_of_progression)
+    # print(lenght_of_progression)
     max_start_of_progression = 20
     start_of_progression = randint(1, max_start_of_progression)
     incrementor = randint(1, 10)
