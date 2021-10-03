@@ -3,7 +3,8 @@
 from random import randint  # isort:skip
 
 
-description_of_game = 'Answer "yes" if the number is even, otherwise answer "no".'
+description_of_game = 'Answer "yes" if the number is even,\
+     otherwise answer "no".'
 
 
 def game_question_and_answer():

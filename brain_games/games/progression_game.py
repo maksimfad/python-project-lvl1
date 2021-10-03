@@ -3,7 +3,8 @@
 from random import randint  # isort:skip
 
 
-description_of_game = 'What number is missing in the progression?'
+description_of_game = 'What number is missing in\
+     the progression?'
 
 
 def game_question_and_answer():
